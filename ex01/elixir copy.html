@@ -1,51 +1,83 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta name="keyword" content="HTML, CSS, JavaScript"/>
-    <meta name="description" content="Bit Academy 2022"/>
+    <meta name="keyword" content="HTML, CSS, JavaScript" />
+    <meta name="description" content="Bit Academy 2022" />
     <meta name="author" content="채은" />
 
-    <meta http-equiv="Content"
-        content="text/html; charset=UTF-8" /> <!--html4스타일-->
-    <meta charset="UTF-8" /> <!--html5스타일-->    
+    <meta http-equiv="Content" content="text/html; charset=UTF-8" />
+    <!--html4스타일-->
+    <meta charset="UTF-8" />
+    <!--html5스타일-->
     <title>Bit Lounge 건강음료</title>
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
-<body>
-  <span>
-    <h1>건강 음료</h1>
-    <div>
-      판매자
-      <img src="images/Penguins.jpg" alt="Penguins" title="Penguins"/>
-    </div>
-    <span><h3>Green Tea Cooler</h3>
-      <span><img src="images/green.jpg" alt="Green Tea Cooler"></span>
-      <span>
-       Chock full of vitamins and minerals, this elixir combines the healthful benefits of green tea with a twist of chamomile blossoms and ginger root.
-      </span>
-  </span>
-  <span>
-   <h3>Raspberry Ice Concentration</h3>
-   <img src="images/lightblue.jpg" alt="Raspberry Ice Concentration"/>
-   <p>
-     Combining raspberry juice with lemon grass, citrus peel and rosehips, this icy drink will make your mind feel clear and crisp.
-   </p>
-  </span>
-  <div>
-   <h3>Blueberry Bliss Elixir</h3>
-   <img src="images/blue.jpg" alt="Blueberry Bliss Elixir"/>
-   <p>
-     Blueberries and cherry essence mixed into a base of elderflower herb tea will put you in a relaxed state of bliss in no time.
-   </p>
-  </div> 
-  <hr>
-  <h3>Cranberry Antioxidant Blast</h3>
-  <img src="images/red.jpg" alt="Cranberry Antioxidant Blast"/>
-  <p>
-    Wake up to the flavors of cranberry and hibiscus in this vitamin C rich elixir.
-  </p>
-  <a href="index.html">메인으로 돌아가기</a><br>
-  <a href="table.html">테이블로 가기</a>
-</body>
 
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#green">Green Tea Cooler</a></li>
+                <li><a href="#red">Raspberry Ice Concentration</a></li>
+                <li><a href="#blue">Blueberry Bliss Elixir</a></li>
+                <li><a href="#pink">Cranberry Antioxidant Blast</a></li>
+            </ul>
+        </nav>
+        <h1>건강 음료</h1>
+        <div>
+            판매자
+            <br><img src="images/Penguins.jpg" alt="Penguins" title="Penguins" class="celler" />
+        </div>
+    </header>
+    <article>
+        <section>
+            <div id="green" class="green beverage">
+                <span>
+                    <h3>Green Tea Cooler</h3>
+                    <span>
+                        <img src="images/green.jpg" alt="Green Tea Cooler"></span>
+                <span>
+                        Chock full of vitamins and minerals, this elixir combines the healthful benefits
+                        of green tea with a twist of chamomile blossoms and ginger root.
+                    </span>
+        </section>
+        </div>
+        <div id="red" class="red beverage">
+            <section>
+                <h3>Raspberry Ice Concentration</h3>
+                <img src="images/lightblue.jpg" alt="Raspberry Ice Concentration" />
+                <p>
+                    Combining raspberry juice with lemon grass, citrus peel and rosehips, this icy drink will make your mind feel clear and crisp.
+                </p>
+            </section>
+        </div>
+        <div id="blue" class="blue beverage">
+            <section>
+                <h3>Blueberry Bliss Elixir</h3>
+                <img src="images/blue.jpg" alt="Blueberry Bliss Elixir" />
+                <p>
+                    Blueberries and cherry essence mixed into a base of elderflower herb tea will put you in a relaxed state of bliss in no time.
+                </p>
+            </section>
+        </div>
+        <div id="pink" class="pink beverage">
+            <section>
+                <hr>
+                <h3>Cranberry Antioxidant Blast</h3>
+                <img src="images/red.jpg" alt="Cranberry Antioxidant Blast" />
+                <p>
+                    Wake up to the flavors of cranberry and hibiscus in this vitamin C rich elixir.
+                </p>
+            </section>
+        </div>
+    </article>
+    <nav>
+        <a href="index.html">메인으로 돌아가기</a>
+        <br>
+        <a href="table.html">테이블로 가기</a>
+    </nav>
+    <footer>&copy; Bit Lounge, 2022</footer>
+</body>
 
 </html>

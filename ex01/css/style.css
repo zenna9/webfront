@@ -1,0 +1,48 @@
+@charset "UTF-8";
+* {
+    padding: 1%;
+    margin: 0%;
+    color: gray;
+}
+
+h1 {
+    color: blue;
+}
+
+nav,
+section {
+    margin: 10px, 20px;
+}
+
+.beverage {
+    padding: 10px;
+}
+
+.beverage.red {
+    background-color: rgba(0, 200, 200, 0.2);
+}
+
+.beverage.green {
+    background-color: rgba(0, 255, 00, 0.2);
+    border: 3px solid black
+}
+
+.beverage.pink {
+    background-color: rgba(150, 0, 0, 0.2);
+}
+
+.beverage.blue {
+    background-color: rgba(10, 0, 200, 0.2);
+}
+
+h3:hover {
+    font-weight: 200;
+}
+
+h3:active {
+    color: red;
+}
+
+.celler {
+    border-radius: 50%;
+}

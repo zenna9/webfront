@@ -1,0 +1,26 @@
+@charset "UTF-8";
+input[type] {
+    background-color: beige;
+}
+
+input[type="text"] {
+    background-color: blueviolet;
+    : ;
+}
+
+input[type="password"] {
+    box-shadow: 3px;
+}
+
+input:enabled {
+    background-color: #fff;
+    ;
+}
+
+input:disabled {
+    background-color: grey;
+}
+
+input:focus {
+    background-color: orange;
+}
