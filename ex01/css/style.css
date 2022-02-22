@@ -18,6 +18,11 @@ section {
     padding: 10px;
 }
 
+.beverage>img {
+    float: left;
+    margin-right: 20px;
+}
+
 .beverage.red {
     background-color: rgba(0, 200, 200, 0.2);
 }
@@ -45,4 +50,31 @@ h3:active {
 
 .celler {
     border-radius: 50%;
+}
+
+body {
+    /* background-image: url("../images/Landscape.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-color: white; */
+    /* background: url("../images/Landscape.jpg") bottom/ 100% no-repeat fixed lightgrey; */
+}
+
+.menu>li {
+    float: left;
+    background-color: rgb(230, 230, 164);
+    list-style-type: none;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.menu {
+    margin-bottom: 10px;
+}
+
+.celler {
+    clear: both;
 }
